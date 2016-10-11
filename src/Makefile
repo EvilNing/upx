@@ -115,7 +115,7 @@ endif
 .PHONY: check-whitespace
 
 mostlyclean clean distclean maintainer-clean:
-	rm -f *.d *.map *.o *.obj *.res ./.depend upx.exe upx.out upx.ttp upx$(exeext)
+	rm -f *.d *.ii *.map *.o *.obj *.res ./.depend upx.exe upx.out upx.ttp upx$(exeext)
 
 ./.depend compress_lzma$(objext) : INCLUDES += -I$(UPX_LZMADIR)
 
